@@ -16,7 +16,7 @@
 					html += this.links[i];
 				}
 			}
-			var minus = parseInt(parseInt(options.thumbHeight) / 3.5);
+			var minus = parseInt(parseInt(options.thumbHeight) / 3);
 			var plus = parseInt(parseInt(minus) + parseInt(options.thumbHeight));
 			$(el).css({
 				'position': 'relative',
