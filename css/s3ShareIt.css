@@ -1,0 +1,16 @@
+#s3ShareIt {
+	position: 'absolute';
+	left: 230px;
+	width: 400px;
+	height: 40px;
+	top: -15px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#s3ShareIt li
+{
+	float: left;
+	height: 48px;
+	padding: 0px 0px 2px 0px;
+}
