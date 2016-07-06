@@ -1,4 +1,5 @@
-(function($) {
+jQuery.noConflict();
+(function(S) {
 
 	var methods = {
 		links: null,
@@ -58,7 +59,7 @@
 		}
 	};
 
-	$.fn.s3ShareIt = function(options) {
+	S.fn.s3ShareIt = function(options) {
 		var options = options;
 		this.each(function() {
 			var defaults = {
@@ -76,7 +77,7 @@
 				'thumbHeight': 48,
 				'iconsPath': 'https://cdn.rawgit.com/golfing4ca/s3ShareIt/master/img/s3ShareIt'
 			}
-			options = $.extend(true, defaults, options);
+			options = S.extend(true, defaults, options);
 			methods.create(options);
 			return this;
 		});
