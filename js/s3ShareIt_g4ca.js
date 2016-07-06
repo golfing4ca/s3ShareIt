@@ -1,3 +1,4 @@
+jQuery.noConflict();
 (function(S) {
 
   var methods = {
