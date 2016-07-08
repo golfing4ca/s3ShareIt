@@ -1,4 +1,4 @@
-(function(S) {
+(function(sub$) {
 
   var methods = {
     links: null,
