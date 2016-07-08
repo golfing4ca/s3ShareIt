@@ -65,7 +65,7 @@
     }
   };
 
- sub$fn.s3ShareIt = function(options) {
+ sub$.fn.s3ShareIt = function(options) {
     var options = options;
     this.each(function() {
       var defaults = {
@@ -83,7 +83,7 @@
         'thumbWidth': 48,
         'iconsPath': '/img/s3ShareIt'
       }
-      options =sub$extend(true, defaults, options);
+      options =sub$.extend(true, defaults, options);
       methods.create(options);
       return this;
     });
