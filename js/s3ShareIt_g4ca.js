@@ -7,7 +7,7 @@
       if (sub$('#s3ShareIt', sub$(options.el))) {
         var el = sub$('#s3ShareIt', sub$(options.el));
       } else {
-        sub$(options.el).prepend('<div id="s3ShareIt"></div>');
+        sub$(options.el).prepend('<ul id="s3ShareIt"></ul>');
         var el = sub$('#s3ShareIt', sub$(options.el));
       }
       var html = '';
