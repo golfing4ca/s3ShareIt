@@ -25,9 +25,9 @@
 				'height': '48px',
 				'opacity': options.opacity
 			}).hover(function() {
-				sub$(this).stop(true,true).fadeTo('fast', 1);
+				sub$(this).filter(':not(:animated)').fadeTo('fast', 1);
 			}, function() {
-				sub$(this).stop().fadeTo('fast', options.opacity);
+				sub$(this).filter(':not(:animated)').fadeTo('fast', options.opacity);
 			}).append(html).find('li').hover(function() {
 				sub$(this).stop().animate({'marginTop': '8px'}, 'fast');
 			}, function() {
