@@ -25,7 +25,7 @@
 				'height': '48px',
 				'opacity': options.opacity
 			}).hover(function() {
-				sub$(this).stop().fadeTo('fast', 1);
+				sub$(this).stop(true,true).fadeTo('fast', 1);
 			}, function() {
 				sub$(this).stop().fadeTo('fast', options.opacity);
 			}).append(html).find('li').hover(function() {
