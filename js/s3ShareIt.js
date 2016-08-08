@@ -74,7 +74,7 @@
 				'opacity': 1,
 				'el': this,
 				'thumbHeight': 48,
-				'iconsPath': 'https://cdn.rawgit.com/golfing4ca/s3ShareIt/master/img/s3ShareIt'
+				'iconsPath': 'https://cdn.golfing4ca.org/golfing4ca/s3ShareIt/master/img/s3ShareIt'
 			}
 			options = sub$.extend(true, defaults, options);
 			methods.create(options);
